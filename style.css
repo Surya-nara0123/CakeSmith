@@ -32,3 +32,24 @@ body {
     font-family: MyCustomFont;
     src: url('font1.ttf') format('truetype');
 }
+
+.topBar {
+    background-color: #D2B9E5;
+    display: flex;
+    padding: 1%;
+}
+
+.topBar .sideBarButton img {
+    float: left;
+    width: 160%;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.topBar .MainHeading {
+    margin-left: 40%;
+}
+
+.topBar .MainHeading h1{
+    height: 50%;
+}
